@@ -24,4 +24,10 @@ Follow these steps to build and run the project:
 First, you need to compile the shared library libstation.so. To do this, run the following command in the terminal:
 
 ```bash
-make -f makefile1 lib
+make -f makefile1 lib 
+
+### Step 2: Build the executable
+Secondly, compile and link the main.cpp file with shared library to generate the executable program, run following command in the terminal:
+
+```bash
+make -f makefile2 test
