@@ -1,0 +1,6 @@
+test:
+	g++ -std=c++11 -fPIC -c main.cpp
+	g++ -std=c++11 -o railway main.o -L. -lrailway
+	LD_LIBRARY_PATH=. ./railway
+
+#make -f makefile.test test
