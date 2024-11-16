@@ -1,3 +1,0 @@
-lib:
-	g++ -std=c++11 -fPIC -c StationLibrary.cpp
-	g++ -std=c++11 -shared -o librailway.so StationLibrary.o
