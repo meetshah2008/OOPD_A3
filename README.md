@@ -10,7 +10,7 @@
 make -f Makefile1 test
 ```
 
-### Step 1: Run Program 2
+### Step 2: Run Program 2
 
 
 
