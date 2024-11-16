@@ -1,0 +1,4 @@
+# Makefile for Program 1 (Boost Libraries)
+test:
+	g++ -std=c++11 -Wall -g program1.cpp -o debug1 -lboost_date_time
+	g++ -std=c++11 -Wall -O3 program1.cpp -o opt1 -lboost_date_time

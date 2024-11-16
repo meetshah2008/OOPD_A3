@@ -1,0 +1,4 @@
+# Makefile for Program 2 (SQLite3)
+test:
+	g++ -std=c++11 -Wall -g program2.cpp -o debug2 -lsqlite3
+	g++ -std=c++11 -Wall -O3 program2.cpp -o opt2 -lsqlite3
